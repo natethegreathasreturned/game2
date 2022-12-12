@@ -1,0 +1,41 @@
+* {
+    background-color: gray;
+}
+#board {
+    background: url(https://cdn.pixabay.com/photo/2016/11/18/21/10/wolf-1836875__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 350px;
+    width: 650px;
+}
+.character {
+    background: url(https://cdn.pixabay.com/photo/2020/12/01/08/31/mannequin-5793352__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    display: none;
+}
+.thief {
+    background: url(https://media.istockphoto.com/id/1386096839/photo/hacker-person-in-black-hood-on-binary-code-backdrop.jpg?b=1&s=170667a&w=0&k=20&c=kwgF-uqOwgBVay49DutT9_j-WSfyMJaZMTyjRXKfz14=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.btn{
+    text-align: center;
+    width: 650px;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
